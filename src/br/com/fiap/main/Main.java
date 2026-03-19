@@ -32,7 +32,6 @@ public class Main {
         fp.descontoINSS = 20;
         fp.numeroDeDependentes = 3;
         fp.valorPlanoSaude = 100;
-        fp.calcularSalarioLiquido();
         System.out.printf("Salário final: %.2f", fp.calcularSalarioLiquido());
     }
 }
